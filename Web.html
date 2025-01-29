@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Impacto Verde Responsable - Lucha contra el cambio climático">
+    <meta name="keywords" content="sostenibilidad, medio ambiente, cambio climático, reciclaje, energías renovables">
+    <title>Impacto Verde Responsable</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: linear-gradient(to right, #78c1a7, #b2e8e0);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header img {
+            height: 60px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            font-weight: bold;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #d4f4e3;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #0000FF;
+        }
+        .hero p {
+            font-size: 1.2em;
+            color: #0000FF;
+        }
+        .news {
+            padding: 40px 20px;
+            background: #d4f4e3;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .news-card {
+            background: #e6f7ef;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 300px;
+        }
+        .news-card img {
+            width: 100%;
+        }
+        .news-card .content {
+            padding: 15px;
+        }
+        .news-card .content a {
+            text-decoration: none;
+            color: #78c1a7;
+            font-weight: bold;
+        }
+        #donaciones {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        #donaciones form {
+            margin-top: 20px;
+        }
+        #donaciones input, #donaciones button {
+            padding: 10px;
+            font-size: 1em;
+            margin: 5px 0;
+        }
+        .resources {
+            padding: 40px 20px;
+            background: #cbeadf;
+            text-align: center;
+        }
+        .resources h2 {
+            margin-bottom: 20px;
+        }
+        .resources a {
+            display: inline-block;
+            text-decoration: none;
+            background: #78c1a7;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            background: #335b47;
+            color: #fff;
+            padding: 20px 15px;
+            text-align: center;
+        }
+        footer a {
+            color: #78c1a7;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\usuario\Desktop\DIEGO\Diego\CANAL IVR\logo 3.jpg" alt="Impacto Verde Responsable">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#material">Material</a></li>
+                <li><a href="#donaciones">Donaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero" id="inicio">
+        <h1>Impacto Verde Responsable</h1>
+        <p>Únete a nosotros en la lucha contra el cambio climático</p>
+    </section>
+
+    <section class="news" id="noticias">
+        <div class="news-card">
+            <img src="climate-news.jpg" alt="Noticias sobre cambio climático">
+            <div class="content">
+                <h3>Noticias</h3>
+                <p>Últimas actualizaciones sobre el cambio climático y sostenibilidad.</p>
+                <a href="noticias-climaticas.html">Ver más</a>
+            </div>
+        </div>
+        <div class="news-card">
+            <img src="initiatives.jpg" alt="Iniciativas verdes">
+            <div class="content">
+                <h3>Iniciativas Verdes</h3>
+                <p>Proyectos en curso para proteger nuestro planeta.</p>
+                <a href="noticias-iniciativas.html">Descubre más</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="resources" id="material">
+        <h2>Material de Consulta</h2>
+        <p>Encuentra documentos, informes y guías sobre el cambio climático y sostenibilidad.</p>
+        <a href="material-consulta.html">Acceder al material</a>
+    </section>
+
+    <section id="donaciones">
+        <h2>Apóyanos</h2>
+        <p>Con tu donación, podemos llevar a cabo más proyectos de impacto.</p>
+        <form>
+            <label for="amount">Monto:</label>
+            <input type="number" id="amount" name="amount" placeholder="Ingresa tu monto">
+            <button type="submit">Donar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="#">Instagram</a> | <a href="#">YouTube</a> | <a href="#">Twitter</a>
+        <p>© 2025 Impacto Verde Responsable. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
