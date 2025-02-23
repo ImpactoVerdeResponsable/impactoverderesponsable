@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: linear-gradient(to right, #4b7d57, #78c1a7);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #cccccc;
+}
+
+.help-section,
+.contact-section,
+.donations,
+.materials,
+.news,
+.initiatives {
+    padding: 40px 20px;
+    background: #a3d9a5; /* Fondo ajustado para coincidir con la página de inicio */
+    text-align: center;
+}
+
+.help-options,
+.materials,
+.news,
+.initiatives {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.help-card,
+.donation-card,
+.material-card,
+.news-card,
+.initiative-card {
+    background: #e6f7ef; /* Fondo de tarjetas igual que en la página principal */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    background: #e6f7ef;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #4b7d57;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background: #3e6a4a;
+}
+
+.message {
+    margin-top: 10px;
+    color: #333;
+}
+
+.help-card h3,
+.donation-card h3,
+.material-card h3,
+.news-card h3,
+.initiative-card h3 {
+    margin: 0;
+    color: #4b7d57;
+}
+
+.help-card p,
+.donation-card p,
+.material-card p,
+.news-card p,
+.initiative-card p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.help-card a,
+.donation-card a,
+.material-card a,
+.news-card a,
+.initiative-card a {
+    text-decoration: none;
+    color: #78c1a7;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.help-card a:hover,
+.donation-card button:hover,
+.material-card a:hover,
+.news-card a:hover,
+.initiative-card a:hover {
+    text-decoration: underline;
+}
+
+.news-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.news-card .content {
+    padding: 15px;
+}
+
+footer {
+    background: #335b47;
+    color: #fff;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+footer a {
+    color: #78c1a7;
+    text-decoration: none;
+}
