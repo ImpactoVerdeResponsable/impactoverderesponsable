@@ -1,114 +1,34 @@
-body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
-}
-
-header {
-    background: linear-gradient(to right, #4b7d57, #78c1a7);
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header img {
-    height: 60px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    font-weight: bold;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.hero {
+.cta {
     text-align: center;
-    padding: 60px 20px;
-    background: #c5e1c5;
-    color: #274e13;
-}
-
-.hero h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.2em;
-}
-
-.news {
     padding: 40px 20px;
-    background: #c5e1c5;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.news-card {
-    background: #d8f3d8;
+    background: #e6f7ef;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    overflow: hidden;
-    width: 300px;
+    margin: 40px 0;
 }
 
-.news-card img {
-    width: 100%;
-}
-
-.news-card .content {
-    padding: 15px;
-}
-
-.news-card .content a {
-    text-decoration: none;
+.cta h2 {
+    margin-bottom: 20px;
     color: #4b7d57;
-    font-weight: bold;
+    font-size: 2em;
 }
 
-.resources {
-    padding: 40px 20px;
-    background: #a3d9a5;
-    text-align: center;
-}
-
-.resources h2 {
+.cta p {
+    color: #666;
+    font-size: 1.1em;
     margin-bottom: 20px;
 }
 
-.resources a {
+.cta-button {
     display: inline-block;
     text-decoration: none;
-    background: #4b7d57;
+    background: #78c1a7;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 10px;
+    transition: background 0.3s ease;
 }
 
-footer {
-    background: #335b47;
-    color: #fff;
-    padding: 20px 15px;
-    text-align: center;
-}
-
-footer a {
-    color: #78c1a7;
-    text-decoration: none;
+.cta-button:hover {
+    background: #4b7d57;
 }
