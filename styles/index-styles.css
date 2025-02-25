@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-    height: 60px;
+    height: 78px;
 }
 
 nav ul {
@@ -151,12 +151,7 @@ footer a {
 .logo-50 {
     width: 30%;
     height: auto; /* Mantiene la proporción de la imagen */
-}
 
-.logo +30 {
-    width: 130%;
-    height: auto; /* Mantiene la proporción de la imagen */
-}
 
 
 
