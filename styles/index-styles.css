@@ -148,3 +148,9 @@ footer a {
     background: #4b7d57;
 }
 
+.logo-50 {
+    width: 50%;
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
