@@ -8,39 +8,37 @@ body {
 header {
     background: linear-gradient(to right, #4b7d57, #78c1a7);
     padding: 15px 30px;
-    text-align: center; /* Centra contenido */
+    text-align: center;
 }
 
 .header-content {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
 }
 
 .header-content img {
     height: 150px;
-    margin-bottom: 10px; /* Espacio entre imagen y texto */
 }
 
 .donation-content {
-    text-align: center;
+    text-align: left;
 }
 
 .donation-content h2 {
     font-size: 1.2em;
-    color: #fff;
-    margin: 10px 0; /* Espacio entre títulos */
+    color: #00476a;
+    margin: 10px 0;
 }
 
 .donation-content p {
     font-size: 1em;
     color: #fff;
-    margin-bottom: 10px; /* Espacio entre párrafo y botón */
+    margin-bottom: 10px;
 }
 
 .donation-content button {
-    background-color: #ff6347;
+    background-color: #ff7254;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -54,13 +52,13 @@ header {
 }
 
 nav {
-    margin-top: 10px; /* Espacio entre header y navegación */
+    margin-top: 10px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center; /* Centra las pestañas de navegación */
+    justify-content: center;
     gap: 15px;
     margin: 0;
     padding: 0;
@@ -68,11 +66,19 @@ nav ul {
 
 nav ul li {
     font-weight: bold;
+    border-right: 1px solid #00476a;
+    padding-right: 15px;
+}
+
+nav ul li:last-child {
+    border-right: none;
+    padding-right: 0;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #00476a;
+    font-size: 1.2em;
 }
 
 .hero {
@@ -83,12 +89,12 @@ nav ul li a {
 }
 
 .hero h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
     margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 1.2em;
+    font-size: 1.7em;
 }
 
 .news {
@@ -153,6 +159,7 @@ footer a {
     color: #78c1a7;
     text-decoration: none;
 }
+
 .cta {
     text-align: center;
     padding: 40px 20px;
@@ -177,7 +184,7 @@ footer a {
 .cta-button {
     display: inline-block;
     text-decoration: none;
-    background: #78c1a7;
+    background: #00476a;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -191,4 +198,4 @@ footer a {
 .logo-50 {
     width: 30%;
     height: auto; /* Mantiene la proporción de la imagen */
-
+}
