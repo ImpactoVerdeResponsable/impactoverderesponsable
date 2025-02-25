@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-    height: 60px;
+    height: 80px;
 }
 
 nav ul {
@@ -36,7 +36,7 @@ nav ul li a {
 
 .hero {
     text-align: center;
-    padding: 60px 20px;
+    padding: 30px 20px;
     background: #c5e1c5;
     color: #274e13;
 }
@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 .news {
-    padding: 40px 20px;
+    padding: 20px 20px;
     background: #c5e1c5;
     display: flex;
     flex-wrap: wrap;
