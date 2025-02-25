@@ -153,4 +153,10 @@ footer a {
     height: auto; /* Mantiene la proporción de la imagen */
 }
 
+.logo +30 {
+    width: 130%;
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
 
