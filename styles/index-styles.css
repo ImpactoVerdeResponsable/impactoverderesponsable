@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-    height: 80px;
+    height: 60px;
 }
 
 nav ul {
@@ -36,7 +36,7 @@ nav ul li a {
 
 .hero {
     text-align: center;
-    padding: 30px 20px;
+    padding: 15px 20px;
     background: #c5e1c5;
     color: #274e13;
 }
