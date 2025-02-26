@@ -70,6 +70,17 @@ nav ul li {
     font-weight: bold;
 }
 
+nav ul li {
+    font-weight: bold;
+    border-right: 1px solid #00476a; /* Agrega una raya divisoria */
+    padding-right: 15px; /* Espacio para la raya */
+}
+
+nav ul li:last-child {
+    border-right: none; /* Elimina la raya del último elemento */
+    padding-right: 0; /* Elimina el espacio del último elemento */
+}
+
 nav ul li a {
     text-decoration: none;
     color: #00476a;
