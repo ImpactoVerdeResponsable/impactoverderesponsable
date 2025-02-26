@@ -24,7 +24,7 @@ header {
 }
 
 .header-content img {
-    max-width: 50%;
+    max-width: 100%; /* Imagen ajustada al ancho del contenedor */
     height: auto;
 }
 
@@ -288,6 +288,4 @@ footer a {
     padding: 20px;
 }
 
-.initiative-card {
-    display: inline-block;
-    width: 90%;
+.
