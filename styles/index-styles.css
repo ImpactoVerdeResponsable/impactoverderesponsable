@@ -13,28 +13,29 @@ header {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .header-content img {
-    height: 150px;
+    max-width: 50%;
+    height: auto;
 }
 
 .donation-content {
-    text-align: left;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .donation-content h2 {
     font-size: 1.2em;
     color: #00476a;
-    margin: 10px 0;
 }
 
 .donation-content p {
     font-size: 1em;
     color: #fff;
-    margin-bottom: 10px;
 }
 
 .donation-content button {
@@ -58,6 +59,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
     margin: 0;
@@ -66,13 +68,6 @@ nav ul {
 
 nav ul li {
     font-weight: bold;
-    border-right: 1px solid #00476a;
-    padding-right: 15px;
-}
-
-nav ul li:last-child {
-    border-right: none;
-    padding-right: 0;
 }
 
 nav ul li a {
@@ -89,16 +84,16 @@ nav ul li a {
 }
 
 .hero h1 {
-    font-size: 3.5em;
+    font-size: 3em;
     margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 .news {
-    padding: 20px 20px;
+    padding: 20px;
     background: #c5e1c5;
     display: flex;
     flex-wrap: wrap;
@@ -111,31 +106,23 @@ nav ul li a {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     overflow: hidden;
-    width: 300px;
+    width: 90%;
+    max-width: 300px;
 }
 
 .news-card img {
     width: 100%;
+    height: auto;
 }
 
 .news-card .content {
     padding: 15px;
 }
 
-.news-card .content a {
-    text-decoration: none;
-    color: #4b7d57;
-    font-weight: bold;
-}
-
 .resources {
     padding: 30px 20px;
     background: #a3d9a5;
     text-align: center;
-}
-
-.resources h2 {
-    margin-bottom: 20px;
 }
 
 .resources a {
@@ -145,7 +132,6 @@ nav ul li a {
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 10px;
 }
 
 footer {
@@ -178,7 +164,6 @@ footer a {
 .cta p {
     color: #666;
     font-size: 1.1em;
-    margin-bottom: 20px;
 }
 
 .cta-button {
@@ -196,6 +181,7 @@ footer a {
 }
 
 .logo-50 {
-    width: 30%;
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 50%;
+    max-width: 150px;
+    height: auto;
 }
