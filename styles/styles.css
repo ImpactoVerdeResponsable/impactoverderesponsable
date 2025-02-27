@@ -34,26 +34,28 @@ header {
 }
 
 .donation-content h2 {
-    font-size: 1.2em;
+    font-size: 2.4em;
     color: #00476a;
 }
 
-.donation-content p {
-    font-size: 1em;
-    color: #fff;
+.donation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 10px; /* Espacio entre el párrafo y los botones */
 }
 
-.donation-content button {
+.donation-button {
     background-color: #ff7254;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 24px; /* Duplicando el padding */
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 1.2em; /* Duplicando el tamaño de la fuente */
 }
 
-.donation-content button:hover {
+.donation-button:hover {
     background-color: #ff4500;
 }
 

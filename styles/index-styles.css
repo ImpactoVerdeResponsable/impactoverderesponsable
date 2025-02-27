@@ -19,7 +19,7 @@ header {
 }
 
 .header-content img {
-    max-width: 50%;
+    max-width: 100%; /* Ajuste para móviles */
     height: auto;
 }
 
@@ -64,10 +64,6 @@ nav ul {
     gap: 15px;
     margin: 0;
     padding: 0;
-}
-
-nav ul li {
-    font-weight: bold;
 }
 
 nav ul li {
@@ -195,4 +191,23 @@ footer a {
     width: 50%;
     max-width: 150px;
     height: auto;
+}
+
+/* Media Queries para diseño responsivo */
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        border-right: none;
+        padding: 10px 0;
+    }
+
+    .news {
+        flex-direction: column;
+        align-items: center;
+    }
 }
