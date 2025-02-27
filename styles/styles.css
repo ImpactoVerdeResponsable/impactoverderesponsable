@@ -5,6 +5,13 @@ body {
     background-color: #f9f9f9;
 }
 
+/* Contenedor principal para centrar el contenido */
+.main-container {
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
 header {
     background: linear-gradient(center, #4b7d57, #78c1a7);
     padding: 15px 30px;
@@ -24,7 +31,7 @@ header {
 }
 
 .header-content img {
-    max-width: 100%; /* Imagen ajustada al ancho del contenedor */
+    max-width: 100%;
     height: auto;
 }
 
@@ -41,18 +48,18 @@ header {
 .donation-buttons {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Espacio entre los botones */
-    margin-top: 10px; /* Espacio entre el párrafo y los botones */
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .donation-button {
     background-color: #ff7254;
     color: #fff;
     border: none;
-    padding: 12px 24px; /* Duplicando el padding */
+    padding: 12px 24px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1.2em; /* Duplicando el tamaño de la fuente */
+    font-size: 1.2em;
 }
 
 .donation-button:hover {
@@ -82,13 +89,13 @@ nav ul li {
 
 nav ul li {
     font-weight: bold;
-    border-right: 1px solid #00476a; /* Agrega una raya divisoria */
-    padding-right: 15px; /* Espacio para la raya */
+    border-right: 1px solid #00476a;
+    padding-right: 15px;
 }
 
 nav ul li:last-child {
-    border-right: none; /* Elimina la raya del último elemento */
-    padding-right: 0; /* Elimina el espacio del último elemento */
+    border-right: none;
+    padding-right: 0;
 }
 
 nav ul li a {
@@ -278,27 +285,4 @@ footer a {
     display: inline-block;
     width: 90%;
     max-width: 400px;
-    margin: 20px 0;
-    padding: 20px;
-    background: #d8f3d8;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.material-card a {
-    display: inline-block;
-    background-color: #4b7d57;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.initiatives {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-}
-
-.
+    margin:
