@@ -1,4 +1,8 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = htmlspecialchars($_POST["name"]);
     $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
@@ -21,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
     if (mail($destinatario, "Contacto - Impacto Verde Responsable", $contenido, $headers)) {
-        echo "<script>alert('Mensaje enviado correctamente'); window.location.href='contacto.html';</script>";
+        echo "<script>alert('Mensaje enviado correctamente'); window.location.href='index.html';</script>"; // Redirige a index.html
     } else {
         echo "<script>alert('Hubo un error al enviar el mensaje. Intenta nuevamente.'); window.history.back();</script>";
     }

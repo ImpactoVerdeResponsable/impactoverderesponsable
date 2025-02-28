@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contáctanos - Impacto Verde Responsable">
-    <meta name="keywords" content="contacto, cambio climático, medio ambiente, impacto verde">
     <title>Contacto - Impacto Verde Responsable</title>
+    <meta name="description" content="Contáctanos para preguntas, sugerencias o colaboraciones. Estamos aquí para ayudarte a generar un impacto verde responsable.">
+    <meta name="keywords" content="contacto, cambio climático, medio ambiente, impacto verde, preguntas, sugerencias, colaboraciones">
+    <link rel="canonical" href="https://www.impactoverderesponsable.com/contacto.html">
+    <meta property="og:title" content="Contacto - Impacto Verde Responsable">
+    <meta property="og:description" content="Contáctanos para preguntas, sugerencias o colaboraciones. Estamos aquí para ayudarte a generar un impacto verde responsable.">
+    <meta property="og:image" content="https://impactoverderesponsable.github.io/impactoverderesponsable/images/imageweb-01.jpg">
+    <meta property="og:url" content="https://www.impactoverderesponsable.com/contacto.html">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -25,33 +31,38 @@
         </nav>
     </header>
 
-    <section class="contact-section">
-        <h2>Contáctanos</h2>
-        <p>¿Tienes alguna pregunta o sugerencia? ¡Escríbenos!</p>
+    <div class="main-container">
+        <section class="contact-section">
+            <h2>Contáctanos</h2>
+            <p>¿Tienes alguna pregunta o sugerencia? ¡Escríbenos!</p>
 
-        <form class="contact-form" action="enviar.php" method="post">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
+            <form class="contact-form" action="https://formspree.io/f/mvgzegbo" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="subject">Asunto:</label>
-            <input type="text" id="subject" name="subject" required>
+                <label for="subject">Asunto:</label>
+                <input type="text" id="subject" name="subject" required>
 
-            <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
 
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+                <input type="hidden" name="_subject" value="Nuevo mensaje de contacto">
+                <input type="hidden" name="_next" value="https://impactoverderesponsable.github.io/impactoverderesponsable/index.html">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
 
     <footer>
         <p>Síguenos en nuestras redes sociales:</p>
-        <a href="https://www.instagram.com/impactoverderesponsable" target="_blank">Instagram</a> | 
-        <a href="https://www.youtube.com/@ImpactoVerdeResponsable" target="_blank">YouTube</a> | 
-        <a href="https://x.com/ImpactoVerdeRes" target="_blank">X</a> |
-	<a href="https://www.facebook.com/profile.php?id=61572941636856" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/impactoverderesponsable" target="_blank"><i class="fab fa-instagram"></i> Instagram</a> |
+        <a href="https://www.youtube.com/@ImpactoVerdeResponsable" target="_blank"><i class="fab fa-youtube"></i> YouTube</a> |
+        <a href="https://x.com/ImpactoVerdeRes" target="_blank"><i class="fab fa-x-twitter"></i> X</a> |
+    <a href="https://www.facebook.com/profile.php?id=61572941636856" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
         <p>© 2025 Impacto Verde Responsable. Todos los derechos reservados.</p>
     </footer>
 </body>
